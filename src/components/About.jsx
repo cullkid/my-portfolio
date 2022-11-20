@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div name="About" className="w-full h-screen bg-[#320606]">
+    <div name="about" className="w-full h-screen bg-[#320606]">
       {/*container */}
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="w-[360px] mx-auto md:flex justify-center items-center">
@@ -11,7 +11,7 @@ const About = () => {
           </h1>
         </div>
 
-        <div className="w-[360px] md:w-[1300px] md:mt-[50px] mx-auto mt-[20px] md:grid grid-cols-2 gap-[50px]">
+        <div className="w-[360px] md:w-[1000px] md:mt-[50px] mx-auto mt-[20px] md:grid grid-cols-2 gap-[50px]">
           <h3 className="text-3xl text-gray-300 md:pt-6">
             Hi. I'm Eze, nice to meet you. Please take a look around!
           </h3>

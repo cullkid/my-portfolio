@@ -1,5 +1,5 @@
 import React from "react";
-import homebg from ".././utilities/homebg.svg";
+import homebg from ".././utilities/homebg3.svg";
 import Eze from ".././utilities/Eze.svg";
 import { BsArrowRight } from "react-icons/bs";
 
@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="top-0 w-full h-screen bg-no-repeat bg-cover bg-center"
+      className="top-0 w-full h-[800px] md:h-screen bg-no-repeat bg-cover bg-center pb-[-20px]"
       style={{ backgroundImage: `url(${homebg})` }}>
       {/*CONTAINER */}
       <div className="max-w-[1200px] mx-auto px-8 flex flex-col justify-center h-full">
@@ -53,7 +53,7 @@ const Home = () => {
 
         <button className="bg-pink-600 group w-[130px] flex items-center py-1 pl-2 mx-auto mt-6 text-gray-100 font-bold hover:bg-[#1BE017] hover:text-white">
           View Work
-          <span className='group-hover:rotate-90 duration-300'>
+          <span className="group-hover:rotate-90 duration-300">
             <BsArrowRight className="ml-2" />
           </span>
         </button>
