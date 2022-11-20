@@ -41,7 +41,10 @@ const Work = () => {
                 </div>
 
                 <div>
-                  <a className="font-bold text-white" href="">
+                  <a
+                    className="font-bold text-white"
+                    href="https://github.com/cullkid/Jobplus-repo"
+                    target="_blank">
                     Code
                   </a>
                 </div>
@@ -65,7 +68,10 @@ const Work = () => {
                 </div>
 
                 <div>
-                  <a className="font-bold text-white" href="">
+                  <a
+                    className="font-bold text-white"
+                    href="https://github.com/cullkid/Integral/tree/main/Integral"
+                    targer="_blank">
                     Code
                   </a>
                 </div>
@@ -89,7 +95,10 @@ const Work = () => {
                 </div>
 
                 <div>
-                  <a className="font-bold text-white" href="">
+                  <a
+                    className="font-bold text-white"
+                    href="https://github.com/cullkid/Estate-Portugal"
+                    target="_blank">
                     Code
                   </a>
                 </div>
