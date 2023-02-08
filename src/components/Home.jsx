@@ -1,5 +1,5 @@
 import React from "react";
-import homebg from ".././utilities/homebg3.svg";
+import homebg from ".././utilities/homebg.svg";
 import Eze from ".././utilities/Eze.svg";
 import { BsArrowRight } from "react-icons/bs";
 
@@ -8,7 +8,8 @@ const Home = () => {
     <div
       name="home"
       className="top-0 w-full h-[800px] md:h-screen bg-no-repeat bg-cover bg-center pb-[-20px]"
-      style={{ backgroundImage: `url(${homebg})` }}>
+      style={{ backgroundImage: `url(${homebg})` }}
+    >
       {/*CONTAINER */}
       <div className="max-w-[1200px] mx-auto px-8 flex flex-col justify-center h-full">
         <div className="md:max-w-[900px] mx-auto h-[310px] md:h-[180px]">

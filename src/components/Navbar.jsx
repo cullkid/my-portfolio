@@ -26,7 +26,7 @@ const Nvabar = () => {
             <Link
               to="home"
               smooth={true}
-              duration={500}
+              durration={500}
               className="cursor-pointer">
               Home
             </Link>

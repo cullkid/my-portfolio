@@ -27,7 +27,8 @@ const Work = () => {
           <div className="md:grid grid-cols-2 gap-[50px]">
             <div
               className="py-[100px] mt-[30px] hover:py-[60px] div-set bg-no-repeat bg-cover bg-center group brightness-50"
-              style={{ backgroundImage: `url(${project1})` }}>
+              style={{ backgroundImage: `url(${project1})` }}
+            >
               <p className="hidden group-hover:flex text-white font-bold justify-center mb-[40px]">
                 Jobplus Application
               </p>
@@ -44,7 +45,8 @@ const Work = () => {
                   <a
                     className="font-bold text-white"
                     href="https://github.com/cullkid/Jobplus-repo"
-                    target="_blank">
+                    target="_blank"
+                  >
                     Code
                   </a>
                 </div>
@@ -54,7 +56,8 @@ const Work = () => {
             {/*project set2 */}
             <div
               className="py-[100px] mt-[30px] hover:py-[60px] div-set bg-no-repeat bg-cover bg-center group brightness-50"
-              style={{ backgroundImage: `url(${project2})` }}>
+              style={{ backgroundImage: `url(${project2})` }}
+            >
               <p className="hidden group-hover:flex text-white font-bold justify-center mb-[40px]">
                 Integral Application
               </p>
@@ -71,7 +74,8 @@ const Work = () => {
                   <a
                     className="font-bold text-white"
                     href="https://github.com/cullkid/Integral/tree/main/Integral"
-                    targer="_blank">
+                    targer="_blank"
+                  >
                     Code
                   </a>
                 </div>
@@ -81,7 +85,8 @@ const Work = () => {
             {/*project set3 */}
             <div
               className="py-[100px] mt-[30px] hover:py-[60px] div-set bg-no-repeat bg-cover bg-center group brightness-50"
-              style={{ backgroundImage: `url(${project3})` }}>
+              style={{ backgroundImage: `url(${project3})` }}
+            >
               <p className="hidden group-hover:flex text-white font-bold justify-center mb-[40px]">
                 HappyHome Application
               </p>
@@ -98,7 +103,8 @@ const Work = () => {
                   <a
                     className="font-bold text-white"
                     href="https://github.com/cullkid/Estate-Portugal"
-                    target="_blank">
+                    target="_blank"
+                  >
                     Code
                   </a>
                 </div>
@@ -108,7 +114,8 @@ const Work = () => {
             {/*project set4 */}
             <div
               style={{ backgroundImage: `url(${project4})` }}
-              className="py-[100px] mt-[30px] hover:py-[60px] bg-no-repeat bg-cover bg-center group brightness-50 div-set">
+              className="py-[100px] mt-[30px] hover:py-[60px] bg-no-repeat bg-cover bg-center group brightness-50 div-set"
+            >
               <p className="hidden group-hover:flex text-white font-bold justify-center mb-[40px]">
                 New Vertical Application
               </p>
