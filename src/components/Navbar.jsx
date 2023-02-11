@@ -1,24 +1,75 @@
 import React, { useState } from "react";
-import logo from "../utilities/logo.svg";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsPersonLinesFill } from "react-icons/bs";
-import { TiTimes } from "react-icons/ti";
-import { Link } from "react-scroll";
 
 const Nvabar = () => {
-  const [dropList, setDropList] = useState(false);
-  const handleClick = () => setDropList(!dropList);
-
   return (
     <div className="fixed flex justify-between items-center bg-[#320606] w-full h-[80px] text-gray-400 px-[50px]">
-      {/*container*/}
+      {/* social media icons */}
+      <div className="flex fixed flex-col top-[35%] left-0">
+        <ul className="flex flex-col">
+          <li className="w-[160px] h-[50px] hidden md:inline-flex justify-between items-center ml-[-110px]  hover:ml-[1px] duration-300 bg-blue-600">
+            <a
+              className="hidden md:inline-flex justify-between items-center text-gray-300"
+              href="https://www.linkedin.com/in/anthony-eze-5748b6235/"
+              target="_blank"
+            >
+              LinkedIn <FaLinkedin size={30} style={{ marginLeft: "55px" }} />
+            </a>
+          </li>
+
+          <li className="w-[160px] h-[50px] hidden md:inline-flex justify-between items-center ml-[-110px]  hover:ml-[1px] duration-300 bg-[#333333]">
+            <a
+              className="hidden md:inline-flex justify-between items-center text-gray-300"
+              href="https://github.com/cullkid"
+              target="_blank"
+            >
+              GitHub <FaGithub size={30} style={{ marginLeft: "65px" }} />
+            </a>
+          </li>
+
+          <li className="w-[160px] h-[50px] hidden md:inline-flex justify-between items-center ml-[-110px]  hover:ml-[1px] duration-300 bg-[#6fc2b0]">
+            <a
+              className="hidden md:inline-flex justify-between items-center text-gray-300"
+              href="mailto:ezeanthony3199@gmail.com"
+              target="_blank"
+            >
+              Email <AiOutlineMail size={30} style={{ marginLeft: "75px" }} />
+            </a>
+          </li>
+
+          <li className="w-[160px] h-[50px] hidden md:inline-flex justify-between items-center ml-[-110px]  hover:ml-[1px] duration-300 bg-[#565f69]">
+            <a
+              className="hidden md:inline-flex justify-between items-center text-gray-300"
+              href="file:///C:/Users/Cullkid/Downloads/perfect-cv-2.pdf"
+              target="_blank"
+            >
+              Resume
+              <BsPersonLinesFill size={30} style={{ marginLeft: "55px" }} />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+export default Nvabar;
+
+// const [dropList, setDropList] = useState(false);
+// const handleClick = () => setDropList(!dropList);
+{
+  /* container
       <div>
         <img src={logo} alt="" style={{ width: "60px" }} />
       </div>
 
-      {/*menu*/}
-      <div>
+      {/*menu*/
+}
+{
+  /* <div>
+
         <ul className="hidden md:inline-flex">
           <li
             className="cursor-pointer text-xl px-[20px] hover:bg-[#1BE017] hover:text-white py-[15px]"
@@ -54,9 +105,11 @@ const Nvabar = () => {
               className="cursor-pointer">
               Skills
             </Link>
-          </li>
+          </li> */
+}
 
-          <li
+{
+  /* <li
             className="cursor-pointer text-xl px-[20px] hover:bg-[#1BE017] hover:text-white py-[15px]"
             activeClassName="border-b-3 border-[#1BE017]">
             <Link
@@ -66,9 +119,11 @@ const Nvabar = () => {
               className="cursor-pointer">
               Works
             </Link>
-          </li>
+          </li> */
+}
 
-          <li
+{
+  /* <li
             className="cursor-pointer text-xl px-[20px] hover:bg-[#1BE017] hover:text-white py-[15px]"
             activeClassName="border-b-3 border-[#1BE017]">
             <Link
@@ -80,15 +135,25 @@ const Nvabar = () => {
             </Link>
           </li>
         </ul>
-      </div>
+      </div> */
+}
 
-      {/*Hamburger*/}
-      <div onClick={handleClick} className="md:hidden z-10">
-        {/*passing argument to translate the hamburger into x when the droplist is open*/}
-        {!dropList ? <FaBars /> : <TiTimes />}
-      </div>
+{
+  /*Hamburger*/
+}
+{
+  /* <div onClick={handleClick} className="md:hidden z-10">
+        {/*passing argument to translate the hamburger into x when the droplist is open*/
+}
+{
+  /* {!dropList ? <FaBars /> : <TiTimes />} */
+}
+{
+  /* </div>   */
+}
 
-      {/*Mobile menu */}
+{
+  /* Mobile menu
       <ul
         className={
           //setting the mobile menu to be display when the hamburger is click
@@ -125,47 +190,5 @@ const Nvabar = () => {
             Contact
           </Link>
         </li>
-      </ul>
-
-      {/* social media icons */}
-      <div className="flex fixed flex-col top-[35%] left-0">
-        <ul className="flex flex-col">
-          <li className="w-[160px] h-[50px] hidden md:inline-flex justify-between items-center ml-[-110px]  hover:ml-[1px] duration-300 bg-blue-600">
-            <a
-              className="hidden md:inline-flex justify-between items-center text-gray-300"
-              href="">
-              LinkedIn <FaLinkedin size={30} style={{ marginLeft: "55px" }} />
-            </a>
-          </li>
-
-          <li className="w-[160px] h-[50px] hidden md:inline-flex justify-between items-center ml-[-110px]  hover:ml-[1px] duration-300 bg-[#333333]">
-            <a
-              className="hidden md:inline-flex justify-between items-center text-gray-300"
-              href="">
-              GitHub <FaGithub size={30} style={{ marginLeft: "65px" }} />
-            </a>
-          </li>
-
-          <li className="w-[160px] h-[50px] hidden md:inline-flex justify-between items-center ml-[-110px]  hover:ml-[1px] duration-300 bg-[#6fc2b0]">
-            <a
-              className="hidden md:inline-flex justify-between items-center text-gray-300"
-              href="">
-              Email <AiOutlineMail size={30} style={{ marginLeft: "75px" }} />
-            </a>
-          </li>
-
-          <li className="w-[160px] h-[50px] hidden md:inline-flex justify-between items-center ml-[-110px]  hover:ml-[1px] duration-300 bg-[#565f69]">
-            <a
-              className="hidden md:inline-flex justify-between items-center text-gray-300"
-              href="">
-              Resume
-              <BsPersonLinesFill size={30} style={{ marginLeft: "55px" }} />
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  );
-};
-
-export default Nvabar;
+      </ul> */
+}

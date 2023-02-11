@@ -1,5 +1,5 @@
 import React from "react";
-import project1 from ".././utilities/project1.svg";
+import project1 from "../utilities/booking.png";
 import project2 from ".././utilities/project2.svg";
 import project3 from ".././utilities/project3.svg";
 import project4 from ".././utilities/project4.svg";

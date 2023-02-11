@@ -16,11 +16,17 @@ const About = () => {
             Hi. I'm Eze, nice to meet you. Please take a look around!
           </h3>
           <p className="text-1xl text-gray-400 mt-[25px]">
-            I am passionate about building excellent software that improves the
-            lives of those around me. I specialize in creating software for
-            clients ranging from industries and small-businesses all the way to
-            large enterprise corporations. What would you do if you had a
-            software expert available at your fingertips?
+            As a developer with a diverse skill set, I am comfortable working on
+            a wide range of projects, from simple websites to complex web
+            applications. I have experience using React for building user
+            interfaces, and have a strong understanding of the principles of
+            component-based architecture. I am also proficient in using Node.js
+            and Express for building server-side logic and integrating with
+            databases. In addition to my technical skills, I have excellent
+            communication and collaboration skills, and am able to work
+            effectively with clients and team members to deliver successful
+            projects. . What would you do if you had a software expert available
+            at your fingertips?
           </p>
         </div>
       </div>
